@@ -117,16 +117,18 @@ h2 span {
 }
 .ScriptHeader h1{
     color: #151514;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: 800;
+    text-align: center;
     margin: 0;
     line-height: normal;
 	text-transform:uppercase;
 }
 .ScriptHeader h2 {
     color: #151514;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 800;
+    text-align: center;
     margin: 5px 0 0;
     line-height: normal;
 	text-transform:uppercase;
