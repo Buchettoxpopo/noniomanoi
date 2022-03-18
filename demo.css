@@ -22,10 +22,13 @@ article, header, section, aside, details, figcaption, figure, footer, header, hg
 }
 body {
     background:#ff8aae none repeat scroll 0 0;
-    color: #ff8aae;
-    font-family: "Raleway",sans-serif;
+    color: #00eeff;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    font
     margin: 0;
 	padding:0;
 }
