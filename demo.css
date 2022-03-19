@@ -1,8 +1,3 @@
-/* ******************************************************
-	Demo Purpose Only - May not require to add.
-	font-family: 'Work Sans', sans-serif;
-*********************************************************/
-
 @import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
@@ -21,8 +16,7 @@ article, header, section, aside, details, figcaption, figure, footer, header, hg
     display: block;
 }
 body {
-    background:#ff8aae none repeat scroll 0 0;
-    color: #fdad00; 
+    background:#ff8aae none repeat scroll 0 0; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     line-height: 24px;
@@ -32,20 +26,24 @@ body {
     margin: 0;
 	padding:0;
 }
+
 a{
 	font-family: "Raleway",sans-serif;
 	text-decoration: none;
 	outline: none;
 }
+
 a:hover, a:focus {
 	color: #fff89a;
 }
+
 section {
     float: left;
     width: 100%;
 	 margin-top:2em;
 	 margin-bottom:2em;
 }
+
 h2 {
     color: #1a0e0e;
     font-size: 26px;
@@ -54,6 +52,7 @@ h2 {
     line-height: normal;
 	text-transform:uppercase;
 }
+
 h2 span {
     display: block;
     padding: 0;
@@ -88,10 +87,12 @@ h2 span {
     padding: 0;
     text-align: left;
 }
+
 .ScriptTop li{
 	list-style:none;	
 	display:inline-block;
 }
+
 .ScriptTop li a {
     background: #6a4aed none repeat scroll 0 0;
     color: #fff;
@@ -102,6 +103,7 @@ h2 span {
     text-decoration: none;
     text-transform: capitalize;
 }
+
 .ScriptTop li a:hover{
 	background:#000;
 	color:#fff;
@@ -112,12 +114,14 @@ h2 span {
 .ScriptHeader {
     float: left;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
 }
+
 .rt-heading{
-	border-bottom: solid 1px #87d1e1;
+/*	border-bottom: solid 1px #fff; */ 
 	padding-bottom: 10px;
 }
+
 .ScriptHeader h1{
     color: #151514;
     font-size: 50px;
@@ -127,6 +131,7 @@ h2 span {
     line-height: normal;
 	text-transform:uppercase;
 }
+
 .ScriptHeader h2 {
     color: #151514;
     font-size: 25px;
@@ -136,30 +141,6 @@ h2 span {
     line-height: normal;
 	text-transform:uppercase;
 }
-
-.ScriptHeader h1 span {
-    display: block;
-    padding: 0;
-    font-size: 22px;
-    opacity: 0.7;
-    margin-top: 5px;
-	text-transform:uppercase;
-}
-.ScriptHeader span {
-    display: block;
-    padding: 0;
-    font-size: 22px;
-    opacity: 0.7;
-    margin-top: 5px;
-}
-
-
-
-
-/* ******************************************************
-	Live Demo
-*********************************************************/
-
 
 
 
@@ -173,6 +154,7 @@ h2 span {
 	padding-left:12px;
 	padding-right:12px;
 }
+
 .rt-row:before, .rt-row:after {
   display: table;
   line-height: 0;
@@ -182,6 +164,7 @@ h2 span {
 .rt-row:after {
   clear: both;
 }
+
 [class^="col-rt-"] {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;

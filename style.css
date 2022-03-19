@@ -59,6 +59,7 @@
   max-width: 100%;
 }
 .grid-item figcaption {
+  color: #fdad00;
   display: block;
   padding: .625rem .5rem;
   background: #fff89a;
